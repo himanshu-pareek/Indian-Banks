@@ -111,5 +111,5 @@ def add_branches_from_file (request):
 	with open ('num_lines_to_skip.txt', 'w') as f:
 		f.write (str (lines_to_skip + count))
                 
-	print ('=================', count, 'branches added to database ========================')
+	print ('=================', lines_to_skip + count, 'branches added to database ========================')
 	return render (request, 'BankInfo/index.html')
