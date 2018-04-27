@@ -2,8 +2,8 @@
 
 indian_banks is a simple API allowing users to view branch details of banks of india.<br />
 
-1. Get branch detail by ifsc code: https://still-hollows-84066.herokuapp.com/branches/?ifsc=SBIN0000202
-2. Get detail of all branches by bank and city: https://still-hollows-84066.herokuapp.com/branches/?bank=STATE BANK OF INDIA&city=KHARAGPUR
+1. Get branch detail by ifsc code: https://still-hollows-84066.herokuapp.com/branches/?ifsc=ifsc_code
+2. Get detail of all branches by bank and city: https://still-hollows-84066.herokuapp.com/branches/?bank=bank_name&city=city_name
 
 ## Branches Collection [/branches/?bank=<bank_name>&city=<city_name>]
 
