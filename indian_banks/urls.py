@@ -20,9 +20,10 @@ from rest_framework.urlpatterns import format_suffix_patterns
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^branches/$', views.BranchList.as_view ()),
-    url(r'^data/add_banks/$', views.add_banks_from_file),
-    url(r'^data/add_branches/$', views.add_branches_from_file),
+    url(r'^branches/', views.BranchList.as_view ()),
+    # url(r'^data/add_banks/$', views.add_banks_from_file),
+    # url(r'^data/add_branches/$', views.add_branches_from_file),
+    url(r'', views.index),
     # re_path (r'^branch/(?P<ifsc_code>\w+)/$', views.getBranch.as_view ()),
     # re_path (r'^branches/(?P<bank_name>\w+)/(?P<city_name>\w+)/$', views.BranchList.as_view ()),
     # url (r'', views.index),
